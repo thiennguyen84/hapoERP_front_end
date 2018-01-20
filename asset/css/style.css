@@ -171,8 +171,8 @@ a{
 }
 
 .browser .til_img{
-  margin-top: 52px;
-  margin-left: 229.37px;
+  margin-top: 75px;
+  margin-left: 181px;
   width: 640px;
 }
 
@@ -294,6 +294,7 @@ a{
 .web .daily_img{
   margin-top: 34px;
   height: 628px;
+  margin-left: 56px;
 }
 
 
@@ -349,6 +350,90 @@ a{
   width: 1920px;
 }
 
+.page_content .left{
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.page_content .right{
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+
+.page_web .page_img{
+  margin-top: 97px;
+}
+
+.page_head .ti-user{
+  height: 36px; 
+  width: 36px;  
+  color: #444444; 
+  font-family: themify; 
+  font-size: 36px;  
+  line-height: 36px;
+  margin-right: 18px;
+}
+
+.page_head{
+  color: #39474E; 
+  font-family: Roboto_light;  
+  font-size: 48px;  
+  font-weight: 300; 
+  line-height: 63px;
+  margin-top: 97px;
+  margin-left: 389px;
+}
+
+.content_page{
+  color: #283238; 
+  font-family: Roboto;  
+  font-size: 14px;  
+  font-style: italic; 
+  line-height: 19px;
+  margin-top: 16px;
+  margin-left: 389px;
+}
+
+.ti-check-box{
+  height: 24px; 
+  width: 18px;  
+  color: #8BC34A; 
+  font-family: themify; 
+  font-size: 18px;  
+  line-height: 24px;  
+  text-align: justify;
+  margin-right: 18px;
+}
+
+.content_page_1{
+  width: 519px; 
+  color: #283238; 
+  font-family: Roboto;  
+  font-size: 13px;  
+  line-height: 24px;  
+  text-align: justify;
+  margin-left: 389px;
+  margin-top: 30px;
+}
+
+.content_page_2{
+  width: 519px; 
+  color: #283238; 
+  font-family: Roboto;  
+  font-size: 13px;  
+  line-height: 24px;  
+  text-align: justify;
+  margin-left: 389px;
+  margin-top: 17px;
+}
+
+.rectangle_2_copy_page{
+  margin-top: 29px;
+  margin-left: 389px;
+}
+
 /*customer*/
 
 .customer {
@@ -371,8 +456,8 @@ a{
 }
 
 .browser_cus .customer_img{
-  margin-left: 229.37px;
-  margin-top: 75px;
+  margin-left: 181px;
+  margin-top: 52px;
 }
 
 .customer_head{
@@ -452,6 +537,127 @@ a{
   background-color: rgba(40,50,56,0.9);
 }
 
+.cus{
+  color: #FFFFFF; 
+  font-family: Roboto_light;  
+  font-size: 48px;  
+  font-weight: 300; 
+  line-height: 63px;
+  height: 63px;
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 0px; 
+}
+
+.rectangle4_group{
+  height: 127px;
+  margin-top: 48px;
+  margin-left: 398px;
+}
+
+.rectangle4_group .customer_group{
+  float: left;
+}
+
+.cus_name{
+  color: #FFFFFF; 
+  font-family: Roboto; 
+  font-size: 10px;  
+  font-weight: 300; 
+  line-height: 13px;
+  width: 58px;
+  margin-left: 11px;
+  text-align: center;
+}
+
+.customer_group .customer_group_2{
+  margin-left: 69px;
+}
+
+.dotted{
+  height: 10px;
+  margin-top: 14px;
+}
+
+.dotted .oval{
+  background-color: #D8D8D8;
+  border-radius: 50%;
+  width: 9.71px;
+  height: 10px;
+  float: left;
+  margin-left: 923px;
+}
+
+.oval2{
+  border: 1px solid #979797;
+  border-radius: 50%;
+  width: 9.71px;
+  height: 10px;
+  float: left;
+  margin-left: 22.79px;
+}
+
+.oval3{
+  border: 1px solid #979797;
+  border-radius: 50%;
+  width: 9.71px;
+  height: 10px;
+  float: left;
+  margin-left: 22.79px;
+  clear: bottom;
+}
+
+.tes_text{
+  color: #FFFFFF; 
+  font-family: Roboto_light;  
+  font-size: 18px;  
+  font-weight: 300; 
+  line-height: 30px;  
+  text-align: justify;
+  margin-top: 62px;
+  width: 750px;
+  margin-left: 586px;
+}
+
+.ti-quote-left{
+  height: 73px;
+  width: 72px;
+  opacity: 0.4;
+  color: #FFFFFF;
+  font-family: themify;
+  font-size: 72px;
+  line-height: 73px;
+  text-align: justify;
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 487px;
+}
+
+.ti-quote-right{
+  height: 73px;
+  width: 72px;
+  opacity: 0.4;
+  color: #FFFFFF;
+  font-family: themify;
+  font-size: 72px;
+  line-height: 73px;
+  text-align: justify;
+  position: absolute;
+  margin-left: 1362px;
+  margin-top: -29px;
+}
+
+/*project*/
+
+.ti-calendar{
+  margin-right: 18px;
+}
+
+.project_img{
+  margin-top: 38px;
+  margin-left: -20px;
+}
+
 /*footer*/
 
 footer {
@@ -461,4 +667,44 @@ footer {
   background-color: #39474E;
   box-shadow: 0 15px 35px 0 rgba(0,0,0,0.1);
   margin-left: -2px;
+}
+
+.hapo_img{
+  width: 96px;
+  float: left;
+  margin-top: 8px;
+}
+
+.group_content{
+  height: 29px;
+  margin-top: 45px;
+  margin-left: 389px;
+}
+
+.group_content .group{
+  float: left;
+}
+
+.group .g1{
+  margin-left: 100px;
+}
+
+.group .g2{
+  margin-left: 109px;
+}
+
+.group .g3{
+  margin-left: 114px;
+}
+
+.group .g4{
+  margin-left: 97px;
+}
+
+.text_footer{
+  color: #8BC34A; 
+  font-family: Roboto;  
+  font-size: 13px;  
+  font-weight: 500; 
+  line-height: 18px;
 }
