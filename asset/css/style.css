@@ -52,6 +52,7 @@ a{
 }
 
 .head .sign_in{
+  background:none;
   height: 36px; 
   width: 82px;  
   border: 2px solid #8BC34A;  
@@ -171,9 +172,8 @@ a{
 }
 
 .browser .til_img{
-  margin-top: 75px;
+  margin-top: 52px;
   margin-left: 181px;
-  width: 640px;
 }
 
 .til .right{
@@ -647,6 +647,14 @@ a{
   margin-top: -29px;
 }
 
+.avata:hover{
+  height: 100px;  
+  width: 99.2px;  
+  border: 2px solid #FFFFFF;  
+  border-radius: 100px;
+  margin-top: -14px;
+}
+
 /*project*/
 
 .ti-calendar{
@@ -676,13 +684,13 @@ footer {
 }
 
 .group_content{
-  height: 29px;
   margin-top: 45px;
   margin-left: 389px;
 }
 
 .group_content .group{
   float: left;
+  height: 100%;
 }
 
 .group .g1{
@@ -701,10 +709,81 @@ footer {
   margin-left: 97px;
 }
 
+.group .g5{
+  margin-left: 81px;
+}
+
 .text_footer{
   color: #8BC34A; 
   font-family: Roboto;  
   font-size: 13px;  
   font-weight: 500; 
   line-height: 18px;
+}
+
+.copyright{
+  margin-top: 65px;
+  color: #D0D8DC; 
+  font-family: Roboto;  
+  font-size: 10px;  
+  font-weight: 500; 
+  line-height: 13px;
+}
+
+.g1_content{
+  margin-left: 100px;
+  color: #D0D8DC; 
+  font-family: Roboto;  
+  font-size: 10px;  
+  font-weight: 500; 
+  line-height: 20px;
+}
+
+.g2_content{
+  margin-left: 109px;
+  color: #D0D8DC; 
+  font-family: Roboto;  
+  font-size: 10px;  
+  font-weight: 500; 
+  line-height: 20px;
+}
+
+.g3_content{
+  margin-left: 114px;
+  color: #D0D8DC; 
+  font-family: Roboto;  
+  font-size: 10px;  
+  font-weight: 500; 
+  line-height: 20px;
+}
+
+.g4_content{
+  margin-left: 97px;
+  color: #D0D8DC; 
+  font-family: Roboto;  
+  font-size: 10px;  
+  font-weight: 500; 
+  line-height: 20px;
+}
+
+ul{
+  margin-top: 54px;
+  padding-left: 0px;
+}
+
+ul a{
+  text-decoration: none;
+  height: 13px; 
+  width: 13px;  
+  color: #8BC34A; 
+  font-family: themify; 
+  font-size: 13px;  
+  line-height: 13px;  
+}
+
+li{
+  padding-left:38px;
+  list-style-type: none;
+  display: inline-block;
+
 }
