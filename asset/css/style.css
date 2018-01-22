@@ -5,7 +5,12 @@ src:url("../fonts/enso.ttf");
 
 @font-face {
 font-family: Roboto_regular;
-src:url("../fonts/Roboto_Regular.ttf");
+src:url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+font-family: Roboto_italic;
+src:url("../fonts/Roboto-Italic.ttf");
 }
 
 @font-face {
@@ -41,7 +46,7 @@ a{
 
 .head .aboutus{  
   color: #283238; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 12px;  
   font-weight: 500; 
   letter-spacing: 1px;  
@@ -64,13 +69,14 @@ a{
   letter-spacing: 1px;  
   line-height: 16px;
   margin-left: 38px;
-  margin-top: 41px;
+  margin-top: 43px;
+  cursor: pointer;
 }
 
 .hapoerp { 
   width: 256px;
-  margin-left: 835px;
-  margin-top: 180px;
+  margin-left: 834px;
+  margin-top: 178px;
 }
 
 .list{
@@ -124,10 +130,9 @@ a{
 
 .head_content {
   color: #283238; 
-  font-family: Roboto;  
-  font-size: 17px;  
-  font-style: italic; 
-  line-height: 25px;
+  font-family: Roboto_italic;  
+  font-size: 17px;   
+  line-height: 24px;
   margin-top: 53px;
   margin-left: 698px;
 }
@@ -150,11 +155,12 @@ a{
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
   color: #FFFFFF;
-  font-family: Roboto;
+  font-family: Roboto_regular;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 24px;
+  cursor: pointer;
 }
 
 /*til*/
@@ -183,7 +189,7 @@ a{
 }
 
 .til_head{
-  margin-top: 144px;
+  margin-top: 129px;
 }
 
 .ti-bookmark-alt{
@@ -207,7 +213,7 @@ a{
 .body_content{
   color: #283238;
   line-height: 24px;
-  font-family: Roboto;
+  font-family: Roboto_regular;
 }
 
 .body_content .content_1{
@@ -267,7 +273,7 @@ a{
 
 .content_3{
   color: #283238;
-  font-family: Roboto;
+  font-family: Roboto_regular;
   margin-top: 16px;
   font-style: italic;
   font-size: 14px;
@@ -277,7 +283,7 @@ a{
 
 .content_4{
   color: #283238;
-  font-family: Roboto;
+  font-family: Roboto_regular;
   width: 457px;
   text-align: justify;
   margin-top: 38px;
@@ -319,7 +325,7 @@ a{
 
 .rectangle3_group{
   color: #FFFFFF; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 18px;  
   font-weight: 500; 
   letter-spacing: 1px;  
@@ -388,7 +394,7 @@ a{
 
 .content_page{
   color: #283238; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 14px;  
   font-style: italic; 
   line-height: 19px;
@@ -404,28 +410,29 @@ a{
   font-size: 18px;  
   line-height: 24px;  
   text-align: justify;
-  margin-right: 18px;
+  position: absolute;
+  margin-left: -37px;
 }
 
 .content_page_1{
-  width: 519px; 
+  width: 482px; 
   color: #283238; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 13px;  
   line-height: 24px;  
   text-align: justify;
-  margin-left: 389px;
+  margin-left: 426px;
   margin-top: 30px;
 }
 
 .content_page_2{
-  width: 519px; 
+  width: 482px; 
   color: #283238; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 13px;  
   line-height: 24px;  
   text-align: justify;
-  margin-left: 389px;
+  margin-left: 426px;
   margin-top: 17px;
 }
 
@@ -480,7 +487,7 @@ a{
 
 .customer_content{
   color: #283238; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 14px;  
   font-style: italic; 
   line-height: 19px;
@@ -489,21 +496,23 @@ a{
 
 .content1{
   color: #283238;
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 13px;  
   line-height: 24px;  
   text-align: justify;
   margin-top: 38px;
-  width: 519px;
+  margin-left: 37px;
+  width: 482px;
 }
 
-.content1 .ti-unlock{
+.ti-unlock{
   height: 24px; 
   width: 18px;  
   color: #8BC34A; 
   font-family: themify; 
   font-size: 18px;
-  margin-right: 19px;
+  position: absolute;
+  margin-left: -37px;
 }
 
 .content1 .ti-cup{
@@ -512,7 +521,8 @@ a{
   color: #8BC34A; 
   font-family: themify; 
   font-size: 18px;
-  margin-right: 19px;
+  position: absolute;
+  margin-left: -37px;
 }
 
 .content1 .ti-stats-up{
@@ -521,7 +531,8 @@ a{
   color: #8BC34A; 
   font-family: themify; 
   font-size: 18px;
-  margin-right: 19px;
+  position: absolute;
+  margin-left: -37px;
 }
 
 .rectangle_2_copy_customer{
@@ -552,26 +563,53 @@ a{
 .rectangle4_group{
   height: 127px;
   margin-top: 48px;
-  margin-left: 398px;
+  margin-left: 320px;
+  width: 1300px;
+
 }
 
 .rectangle4_group .customer_group{
   float: left;
+  height: 80px;
+  width: 150px;
 }
 
 .cus_name{
   color: #FFFFFF; 
-  font-family: Roboto; 
-  font-size: 10px;  
+  font-family: Roboto_regular; 
+  font-size: 13px;  
   font-weight: 300; 
-  line-height: 13px;
-  width: 58px;
-  margin-left: 11px;
-  text-align: center;
+  line-height: 14px;
+  margin-left: 11px; 
+  padding-left: 78px;
+  display: block;
+  width: 70px;
 }
 
-.customer_group .customer_group_2{
-  margin-left: 69px;
+.cus_job{
+  display: block;
+  color: #FFFFFF;
+  font-weight: 300;
+  line-height: 14px;
+  font-size: 10px;
+  padding-left: 95px;
+  margin-top: -8px;
+  font-family: Roboto_regular;
+}
+
+.avata {
+ margin-left: 78px;
+ -moz-transition: all 0.5s;
+ -webkit-transition: all 0.5s;
+ transition: 0.1s;
+}
+.avata:hover {
+ -moz-transform: scale(1.2);
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+.avata:hover + .cus_name {
+    margin-top: 25px;
 }
 
 .dotted{
@@ -644,15 +682,7 @@ a{
   text-align: justify;
   position: absolute;
   margin-left: 1362px;
-  margin-top: -29px;
-}
-
-.avata:hover{
-  height: 100px;  
-  width: 99.2px;  
-  border: 2px solid #FFFFFF;  
-  border-radius: 100px;
-  margin-top: -14px;
+  margin-top: -37px;
 }
 
 /*project*/
@@ -680,11 +710,11 @@ footer {
 .hapo_img{
   width: 96px;
   float: left;
-  margin-top: 8px;
+  margin-top: -4px;
 }
 
 .group_content{
-  margin-top: 45px;
+  margin-top: 54px;
   margin-left: 389px;
 }
 
@@ -715,16 +745,16 @@ footer {
 
 .text_footer{
   color: #8BC34A; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 13px;  
   font-weight: 500; 
   line-height: 18px;
 }
 
 .copyright{
-  margin-top: 65px;
+  margin-top: 54px;
   color: #D0D8DC; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 13px;
@@ -733,37 +763,41 @@ footer {
 .g1_content{
   margin-left: 100px;
   color: #D0D8DC; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 20px;
+  margin-top: 14px;
 }
 
 .g2_content{
   margin-left: 109px;
   color: #D0D8DC; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 20px;
+  margin-top: 14px;
 }
 
 .g3_content{
   margin-left: 114px;
   color: #D0D8DC; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 20px;
+  margin-top: 14px;
 }
 
 .g4_content{
   margin-left: 97px;
   color: #D0D8DC; 
-  font-family: Roboto;  
+  font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 20px;
+  margin-top: 14px;
 }
 
 ul{
