@@ -29,7 +29,7 @@ body{
   padding: 0px;
   margin:0px;
   width: 1920px;
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 /*header*/
@@ -244,7 +244,7 @@ a{
 /*daily_report*/
 .daily_report {
   height: 663px;
-  width: 100%;
+  width: 1920;
 }
 
 .daily_report .left{
