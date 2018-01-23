@@ -73,6 +73,10 @@ a{
   cursor: pointer;
 }
 
+.sign_in:hover{
+  color: #FFFFFF;
+}
+
 .banner{
   margin-top: 178px;
   text-align: center;
@@ -164,6 +168,7 @@ a{
   letter-spacing: 1px;
   line-height: 24px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 /*til*/
@@ -751,43 +756,47 @@ footer {
 }
 
 .g1_content{
-  margin-left: 100px;
+  margin-left: 100px; 
+  margin-top: 14px;
+}
+
+.g1_contact{
   color: #D0D8DC; 
   font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 20px;
-  margin-top: 14px;
 }
 
 .g2_content{
   margin-left: 109px;
+  margin-top: 14px;
+}
+
+.g2_about{
   color: #D0D8DC; 
   font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 20px;
-  margin-top: 14px;
 }
 
 .g3_content{
   margin-left: 114px;
-  color: #D0D8DC; 
-  font-family: Roboto_regular;  
-  font-size: 10px;  
-  font-weight: 500; 
-  line-height: 20px;
   margin-top: 14px;
 }
 
 .g4_content{
   margin-left: 97px;
+  margin-top: 14px;
+}
+
+.g4_term{
   color: #D0D8DC; 
   font-family: Roboto_regular;  
   font-size: 10px;  
   font-weight: 500; 
   line-height: 20px;
-  margin-top: 14px;
 }
 
 ul{
