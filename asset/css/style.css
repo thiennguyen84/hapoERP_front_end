@@ -73,10 +73,13 @@ a{
   cursor: pointer;
 }
 
+.banner{
+  margin-top: 178px;
+  text-align: center;
+}
+
 .hapoerp { 
   width: 256px;
-  margin-left: 834px;
-  margin-top: 178px;
 }
 
 .list{
@@ -276,7 +279,7 @@ a{
   font-family: Roboto_regular;
   margin-top: 16px;
   font-style: italic;
-  font-size: 14px;
+  font-size: 13.5px;
   line-height: 19px;
   margin-left: 390px;
 }
@@ -614,16 +617,9 @@ a{
 
 .dotted{
   height: 10px;
-  margin-top: 14px;
-}
-
-.dotted .oval{
-  background-color: #D8D8D8;
-  border-radius: 50%;
-  width: 9.71px;
-  height: 10px;
-  float: left;
-  margin-left: 923px;
+  margin-top: 24px;
+  text-align: center;
+  padding-left: 900px;
 }
 
 .oval2{
@@ -635,14 +631,8 @@ a{
   margin-left: 22.79px;
 }
 
-.oval3{
-  border: 1px solid #979797;
-  border-radius: 50%;
-  width: 9.71px;
-  height: 10px;
-  float: left;
-  margin-left: 22.79px;
-  clear: bottom;
+.oval2:hover{
+  background-color: #D8D8D8;
 }
 
 .tes_text{
