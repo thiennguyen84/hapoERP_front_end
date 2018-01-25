@@ -362,6 +362,7 @@ a{
 .page-content{
   height: 575px;
   width: 1920px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.05);
 }
 
 .page-content .left{
