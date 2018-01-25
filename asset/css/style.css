@@ -138,14 +138,14 @@ a{
 .head-content {
   color: #283238; 
   font-family: Roboto-italic;  
-  font-size: 17px;   
+  font-size: 18px;   
   line-height: 24px;
   margin-top: 53px;
-  margin-left: 698px;
+  text-align: center;
 }
 
 .rectangle-2-copy{
-  margin-left: 847px;
+  text-align: center;
   margin-top: 22px;
 }
 
@@ -513,6 +513,17 @@ a{
   width: 482px;
 }
 
+.content2{
+  color: #283238;
+  font-family: Roboto-regular;  
+  font-size: 13px;  
+  line-height: 24px;  
+  text-align: justify;
+  margin-top: 17px;
+  margin-left: 37px;
+  width: 482px;
+}
+
 .ti-unlock{
   height: 24px; 
   width: 18px;  
@@ -523,7 +534,7 @@ a{
   margin-left: -37px;
 }
 
-.content1 .ti-cup{
+.ti-cup{
   height: 24px; 
   width: 18px;  
   color: #8BC34A; 
@@ -533,7 +544,7 @@ a{
   margin-left: -37px;
 }
 
-.content1 .ti-stats-up{
+.ti-stats-up{
   height: 24px; 
   width: 18px;  
   color: #8BC34A; 
